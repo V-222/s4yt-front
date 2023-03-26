@@ -5,83 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sponsors</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="libs/bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/s4yt.css">
+    <link rel="stylesheet" href="css/sponsor_island.css">
     <script src="https://kit.fontawesome.com/dda0a07667.js" crossorigin="anonymous"></script>
+    <style>
+      #main-content {
+          background-image: url('./assets/register_form.png');
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          height: 70vh;
+          display: flex;
+          justify-content: space-between;
+        }
+      .sp-logo {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: #895734;
+        }
+
+      .logo-container {
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+
+      @media screen and (min-width: 768px) {
+          .logo-container {          
+          grid-template-columns: auto auto auto;
+        }
+        }
+      .btn_back.png {
+          width: 50px;
+          height: 50px;
+        }
+    </style>
   </head>
   <body> 
     <div class="container">
+
       <!-- HEADER -->
-      <header>
+      <header class="col-10 row">
+      <!--LOGO--> 
         <div class="col-8 offset-2 col-sm-4 offset-sm-0 col-lg-4 offset-lg-0 logo">
             <img src="./assets/logo.png" alt="Logo S4YT">
         </div>
         <div class="col-8 offset-2 col-sm-6 offset-sm-0 title-div py-2">
-            <h1 class="title">Sponser</h1>
-        </div>
-        <style>
-          #main-content {
-              background-image: url('./assets/register_form.png');
-              background-repeat: none;
-              background-size: 100% 100%;
-              height: 70vh;
-              display: flex;
-              justify-content: space-between;
-            }
-          .sp-logo {
-              width: 50px;
-              height: 50px;
-              border-radius: 50%;
-              background-color: #895734;
-            }
+          <h1 class="title">Sponsors</h1>
+      </div>
 
-          .logo-container {
-              display: grid;
-              grid-template-columns: auto auto;
-            }
-
-          @media screen and (min-width: 768px) {
-              .logo-container {          
-              grid-template-columns: auto auto auto;
-            }
-            }
-          .btn_back.png {
-              width: 50px;
-              height: 50px;
-            }
-        </style>
-    </header>     
-      <div>
-        <nav>
-          <ul>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light col-2">
+        <div class="container-fluid">      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            
             <!-- MAIN MAP-->
-            <!--<li>-->
-            <a href="#">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
               <img src="./assets/btn_mainmap_normal.png" alt="Main Map">
             </a>
-            <!--</li>-->
+            </li>
+
             <!-- BUSINESS MAP-->
-            <!--<li>-->
-            <a href="#">
+            <li class="nav-item">
+            <a class="nav-link" href="#">
               <img src="./assets/btn_busi_normal.png" alt="Buisness Map">
             </a>
-            <!--</li>-->
+            </li>
+
             <!-- LOG OUT -->
-            <!--<li>-->
-            <a href="file:///C:/BuildingU/s4yt-front/mockups/login.html">
+            <li class="nav-item">
+            <a class="nav-link" href="file:///C:/BuildingU/s4yt-front/mockups/login.html">
               <img src="./assets/btn_logout_normal.png" alt="Log Out">
             </a>
-            <!--</li>-->
-          </ul>
-        </nav>
-      </div>
-    <div>
+            </li>
 
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </header>
     </div>
-  </header>
+
   <!--MAIN SECTION-->
   <section class="row col-6 offset-3">
+
     <!-- THIS DIV WILL HAVE A BACKGROUND IMAGE CSS PORPERTY -->
     <div id="main-content">
         <img src="./assets/feather.png" alt="feather">
@@ -103,14 +118,13 @@
         <img src="./assets/btn-winmoredoblons.png" alt="win more doblons">
       </a>
 
-
  <!-- Bottom section that contains how many doblons left, chat, and question -->
     </div>
   </section>
-    </div>
+  
     <div>
       <img src="./assets/coins.png" alt="coins">
-      <p>You got 24 Doblons</p>
+      <p>You got <span>24</span> Doblons</p>
       <a href="#">
         <img src="./assets/btn_chat_normal.png" alt="chat">
       </a>
@@ -121,8 +135,9 @@
 
  <!-- Bottom section that contains how much time left -->
     <div>
-      <p>You still have 24:00:00 left</p>
+      <p>You still have <span>24:00:00</span> left</p>
     </div>
+
   <!--this segment is about the footer-->
   <section class="row col-sm-6 offset-6">
     <footer>
@@ -135,7 +150,6 @@
         <div class="sp-logo"></div>
     </footer>
   </section>
-
     <script src="./libs/jquery-3.6.0/jquery.js"></script>
     <script src="./js/register.js"></script>
   </body>
