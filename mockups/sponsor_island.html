@@ -38,10 +38,22 @@
           grid-template-columns: auto auto auto;
         }
         }
-      .btn_back.png {
+      .btn-back.png {
           width: 50px;
           height: 50px;
         }
+      .win_more {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom:50px;
+        right: 30px;
+        transform: rotate(-30deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('./assets/register_form.png');
+      }
     </style>
   </head>
   <body> 
@@ -52,6 +64,17 @@
       <!--LOGO--> 
         <div class="col-8 offset-2 col-sm-4 offset-sm-0 col-lg-4 offset-lg-0 logo">
             <img src="./assets/logo.png" alt="Logo S4YT">
+        </div>
+        <!-- COUNTER -->
+        <div class="">
+          <div class="d-flex justify-content-start align-items-center col-4 logo">
+            <img src="assets/coins_3.png" alt="doublon counter" class="col-6">
+            <div class="doublon-counter-text text-center">
+              <p>You got</p>
+              <p class="doublon-counter-span">24</p>
+              <p>doblons</p>
+            </div>
+          </div>
         </div>
         <div class="col-8 offset-2 col-sm-6 offset-sm-0 title-div py-2">
           <h1 class="title">Sponsors</h1>
@@ -110,21 +133,29 @@
         </div>
         <img src="./assets/coins.png" alt="coins">
     </div>
-    <div>
-      <a href="#">
-        <img src="./assets/btn_back.png" alt="back button">
-      </a>
-      <a href="#">
-        <img src="./assets/btn-winmoredoblons.png" alt="win more doblons">
-      </a>
+      <div class="col-8 offset-2 mt-5">
+        <button class="col-3 btn-back">
+         <img src="assets/back-btn.png" alt="btn back" >
+        </button>
 
- <!-- Bottom section that contains how many doblons left, chat, and question -->
-    </div>
+      </div>
+      <div class="win_more">
+        <p>I want to win more doublon</p>
+      </div>
   </section>
-  
+
+   <!-- Bottom section that contains how many doblons left, chat, and question -->
+
     <div>
-      <img src="./assets/coins.png" alt="coins">
-      <p>You got <span>24</span> Doblons</p>
+          <!-- COUNTER -->
+      <div class="d-flex justify-content-start align-items-center col-4">
+        <img src="assets/coins_3.png" alt="doublon counter" class="col-6">
+          <div class="doublon-counter-text text-center">
+            <p>You got</p>
+            <p class="doublon-counter-span">24</p>
+            <p>doblons</p>
+          </div>
+       </div>
       <a href="#">
         <img src="./assets/btn_chat_normal.png" alt="chat">
       </a>
