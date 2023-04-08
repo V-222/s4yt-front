@@ -1,4 +1,21 @@
-.vl {
-  border-left: 6px saddlebrown;
-  height: 200px;
+.logo {
+  display: none !important;
+}
+
+.doublon-counter-text {
+  font-family:'Bebas Neue', Arial, sans-serif;
+  color: var(--primary-font);
+  line-height: 0.85;
+}
+
+.doublon-counter-span {
+  font-size: 4rem;
+}
+
+.header {
+  width: 80%;
+}
+
+.navbar {
+  width: 20%;
 }
