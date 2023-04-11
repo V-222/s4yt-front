@@ -19,3 +19,16 @@
 .navbar {
   width: 20%;
 }
+
+.time-left {
+  font-family:'Bebas Neue', Arial, sans-serif;
+  color: var(--primary-font);
+  line-height: 0.85;
+}
+
+.time-element {
+  font-family:'Bebas Neue', Arial, sans-serif;
+  color: var(--primary-font);
+  font-size: 4rem;
+}
+
