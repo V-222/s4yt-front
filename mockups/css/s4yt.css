@@ -1,3 +1,25 @@
+/*------------------------------------*
+    $CONTENTS
+*------------------------------------*/
+/**
+ * - ROOT
+ * - FONTS
+ * - UTILS
+ * - NAVBAR MENU ICON
+ * - NAVBAR BUTTONS
+ * - NAVBAR BRAND
+ * - HEADER
+ * - FOOTER
+ */
+
+ /* ROOT */
+ :root {
+    --primary-font: #895734;
+    --error-font: #1eb8a9;
+    --footer-color: #ec268f;
+}
+
+/* FONTS */
 /* Bebas Neue */
 @font-face {
     font-family: "Bebas Neue";
@@ -10,13 +32,12 @@
     font-family: "NightZone";
     src: url('./../assets/font/Night\ Zone.ttf');
 }
-  
-:root {
-    --primary-font: #895734;
-    --error-font: #1eb8a9;
-    --footer-color: #ec268f;
-}
 
+/* HEADER */
+
+.header-container {
+    border: 1px solid red;
+}
 .title {
     font-family:'NightZone', Arial, sans-serif;
     color: var(--primary-font);
@@ -32,6 +53,11 @@
     border-right: 3px solid  var(--primary-font);
     margin-right: 5%;
     padding-right: 3%;
+    border: 1px solid navy;
+}
+
+.logo-game {
+    display: none;
 }
 
 .counter {
@@ -40,6 +66,18 @@
     padding-right: 12%;
 }
 
+.doublon-counter-text {
+    font-family:'Bebas Neue', Arial, sans-serif;
+    color: var(--primary-font);
+    line-height: 0.85;
+    border: 1px solid green;
+}
+  
+.doublon-counter-span {
+    font-size: 4rem;
+}
+
+/* NAVBAR */
 .navbar{
     background-color: transparent !important;
     border-color: var(--primary-font) !important;
