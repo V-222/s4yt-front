@@ -36,7 +36,7 @@
 /* HEADER */
 
 .header-container {
-    border: 1px solid red;
+    border: 1px;
 }
 .title {
     font-family:'NightZone', Arial, sans-serif;
@@ -53,7 +53,7 @@
     border-right: 3px solid  var(--primary-font);
     margin-right: 5%;
     padding-right: 3%;
-    border: 1px solid navy;
+    border: 1px;
 }
 
 .logo-game {
@@ -70,7 +70,6 @@
     font-family:'Bebas Neue', Arial, sans-serif;
     color: var(--primary-font);
     line-height: 0.85;
-    border: 1px solid green;
 }
   
 .doublon-counter-span {
