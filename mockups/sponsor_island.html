@@ -13,64 +13,56 @@
     <link rel="stylesheet" href="css/sponsor_island.css">
     <script src="https://kit.fontawesome.com/dda0a07667.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-
-    <div class="row header-container d-flex col-20 justify-content-between">
-      <!-- HEADER -->
-      <header class="col-7">
-        <!-- LOGO -->
-        <div class="logo logo-game">
-            <img src="./assets/logo.png" alt="Logo S4YT">
-        </div>
-        <!-- COUNTER -->
-        <div class="counter col-7 d-flex align-items-center">
-          <img src="assets/coins_3.png" alt="doublon counter" class="col-10">
-          <div class="doublon-counter-text text-center">
-            <p>You got</p>
-            <p class="doublon-counter-span">24</p>
-            <p>doblons</p>
+  <body>    
+    <!-- NAVBAR -->      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid col-12">
+        <!-- HEADER -->
+        <header class="col-10 d-flex justify-content-start flex-row align-items-center">
+          <!-- LOGO -->
+          <div class="logo logo-game">
+              <img src="./assets/logo.png" alt="Logo S4YT">
           </div>
-        </div>
-        <div class="col-2">
-            <h1 class="title title-left col-5">Sponsors</h1>
-        </div>
-      </header>    
-
-      <!-- NAVBAR -->      
-      <nav class="navbar navbar-expand-lg navbar-light bg-light col-5">
-        <div class="container-fluid">      
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon col-5"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            
+          <!-- COUNTER -->
+          <div class="d-flex flex-row align-items-center justify-content-start col-5">
+            <img src="assets/coins_3.png" alt="doublon" class="col-6">
+            <div class="doublon-counter-text text-center col-6 counter">
+              <p>You got</p>
+              <p class="doublon-counter-span">24</p>
+              <p>doblons</p>
+            </div>
+          </div>
+          <div class="col-6">
+              <h1 class="title title-left">Sponsors</h1>
+          </div>
+        </header> 
+        <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">          
             <!-- MAIN MAP-->
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              <img src="./assets/btn_mainmap_normal.png" alt="Main Map">
-            </a>
+              <a class="nav-link d-flex justify-content-center" aria-current="page" href="#">
+                <img src="./assets/btn_mainmap_normal.png" alt="Main Map" class="col-2">
+              </a>
             </li>
-
             <!-- BUSINESS MAP-->
             <li class="nav-item">
-            <a class="nav-link" href="#">
-              <img src="./assets/btn_busi_normal.png" alt="Buisness Map">
-            </a>
+              <a class="nav-link d-flex justify-content-center" href="#">
+                <img src="./assets/btn_busi_normal.png" alt="Business Map" class="col-2">
+              </a>
             </li>
-
             <!-- LOG OUT -->
             <li class="nav-item">
-            <a class="nav-link" href="file:///C:/BuildingU/s4yt-front/mockups/login.html">
-              <img src="./assets/btn_logout_normal.png" alt="Log Out">
-            </a>
+              <a class="nav-link d-flex justify-content-center" href="file:///C:/BuildingU/s4yt-front/mockups/login.html">
+                <img src="./assets/btn_logout_normal.png" alt="Log Out" class="col-2">
+              </a>
             </li>
-
-            </ul>
-          </div>
+          </ul>
         </div>
-      </nav>      
-    </div>
+      </div>
+    </nav>
 
   <!--MAIN SECTION-->
   <section class="row col-6 offset-3">
@@ -137,6 +129,7 @@
     </footer>
   </section>
     <script src="./libs/jquery-3.6.0/jquery.js"></script>
+    <script src="libs/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
     <script src="./js/register.js"></script>
   </body>
 </html>
