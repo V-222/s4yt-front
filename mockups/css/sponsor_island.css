@@ -1,3 +1,22 @@
 body {
     align-items: normal !important;
 }
+
+.feather, .coins {
+    display: none;
+}
+
+.sp-logo {
+    width: 75px;
+    height: 75px;
+    background-color: var(--primary-font);
+    border-radius: 50%;
+    color: var(--bg-color);
+}
+
+.sp-logo-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transform: rotate(-30deg);
+}
