@@ -13,151 +13,131 @@
     <link rel="stylesheet" href="css/sponsor_island.css">
     <script src="https://kit.fontawesome.com/dda0a07667.js" crossorigin="anonymous"></script>
   </head>
-  <body>    
-    <!-- NAVBAR -->      
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid col-12">
-        <!-- HEADER -->
-        <header class="col-10 d-flex justify-content-start flex-row align-items-center">
-          <!-- LOGO -->
-          <div class="logo logo-game">
-              <img src="./assets/logo.png" alt="Logo S4YT">
+  <body>
+
+    <div class="row header-container d-flex col-20 justify-content-between">
+      <!-- HEADER -->
+      <header class="col-7">
+        <!-- LOGO -->
+        <!-- logo is the verticle line-->
+        <div class="logo logo-game">
+            <img src="./assets/logo.png" alt="Logo S4YT">
+        </div>
+        <!-- COUNTER -->
+        <div class="counter col-7 d-flex align-items-center">
+          <img src="assets/coins_3.png" alt="doublon counter" class="col-10">
+          <div class="doublon-counter-text text-center">
+            <p>You got</p>
+            <p class="doublon-counter-span">24</p>
+            <p>doblons</p>
           </div>
-          <!-- COUNTER -->
-          <div class="d-flex flex-row align-items-center justify-content-start col-5">
-            <img src="assets/coins_3.png" alt="doublon" class="col-6">
-            <div class="doublon-counter-text text-center col-6 counter">
-              <p>You got</p>
-              <p class="doublon-counter-span">24</p>
-              <p>doblons</p>
-            </div>
-          </div>
-          <div class="col-6">
-              <h1 class="title title-left">Sponsors</h1>
-          </div>
-        </header> 
-        <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">          
+        </div>
+        <div class="col-2">
+            <h1 class="title title-left col-5">Sponsors</h1>
+        </div>
+      </header>    
+
+      <!-- NAVBAR -->      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light col-5">
+        <div class="container-fluid">      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon col-5"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            
             <!-- MAIN MAP-->
             <li class="nav-item">
-              <a class="nav-link d-flex justify-content-center" aria-current="page" href="#">
-                <img src="./assets/btn_mainmap_normal.png" alt="Main Map" class="col-2">
-              </a>
+            <a class="nav-link active" aria-current="page" href="#">
+              <img src="./assets/btn_mainmap_normal.png" alt="Main Map">
+            </a>
             </li>
+
             <!-- BUSINESS MAP-->
             <li class="nav-item">
-              <a class="nav-link d-flex justify-content-center" href="#">
-                <img src="./assets/btn_busi_normal.png" alt="Business Map" class="col-2">
-              </a>
+            <a class="nav-link" href="#">
+              <img src="./assets/btn_busi_normal.png" alt="Buisness Map">
+            </a>
             </li>
+
             <!-- LOG OUT -->
             <li class="nav-item">
-              <a class="nav-link d-flex justify-content-center" href="file:///C:/BuildingU/s4yt-front/mockups/login.html">
-                <img src="./assets/btn_logout_normal.png" alt="Log Out" class="col-2">
-              </a>
+            <a class="nav-link" href="file:///C:/BuildingU/s4yt-front/mockups/login.html">
+              <img src="./assets/btn_logout_normal.png" alt="Log Out">
+            </a>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--MAIN SECTION-->
-    <section class="row border border-primary">
-      <div class="main-content">
-          <img src="./assets/feather.png" alt="feather" class="feather">
-          <div class="logo-container">
-            <div class="sp-logo d-flex justify-content-center align-items-center">
-              <span class="sp-logo-text">Logo</span>
-            </div>
-            <div class="sp-logo d-flex justify-content-center align-items-center">
-              <span class="sp-logo-text">Logo</span>
-            </div>
-            <div class="sp-logo d-flex justify-content-center align-items-center">
-              <span class="sp-logo-text">Logo</span>
-            </div>
-            <div class="sp-logo d-flex justify-content-center align-items-center">
-              <span class="sp-logo-text">Logo</span>
-            </div>
-            <div class="sp-logo d-flex justify-content-center align-items-center">
-              <span class="sp-logo-text">Logo</span>
-            </div>
-            <div class="sp-logo d-flex justify-content-center align-items-center">
-              <span class="sp-logo-text">Logo</span>
-            </div>
-          </div>
-          <img src="./assets/coins.png" alt="coins" class="coins">
-      </div>
-        <div class="col-8 offset-2 mt-5">
-          <button class="col-3 btn-back">
-          <img src="assets/back-btn.png" alt="btn back" >
-          </button>
 
-        </div>
-        <div class="win_more">
-          <p>I want to win more doublon</p>
-        </div>
-    </section>
-    <!-- BOTTOM SECTION -->
-    <section class="col-12 bottom-section">
-      <div class="d-flex justify-content-between">
-        <!-- BOTTOM SECTION LEFT -->
-        <div>
-          <!-- COUNTER -->
-          <div class="d-flex justify-content-start align-items-center col-4">
-            <img src="assets/coins_3.png" alt="doublon counter" class="col-6">
-            <div class="doublon-counter-text text-center">
-              <p>You got</p>
-              <p class="doublon-counter-span">24</p>
-              <p>doblons</p>
-            </div>
+            </ul>
           </div>
-          <!-- BUTTON LIST-->
-          <ul>
-            <li>
-              <button></button>
-            </li>
-            <li>
-              <button></button>
-            </li>
-            <li>
-              <button></button>
-            </li>
-          </ul>
         </div>
-        <!-- BOTTOM SECTION RIGHT -->
-        <div class="hidden">
-          <p>You still have <span>24:00:00</span> left</p>
+      </nav>      
+    </div>
+
+  <!--MAIN SECTION-->
+  <section class="row col-6 offset-3">
+
+    <!-- THIS DIV WILL HAVE A BACKGROUND IMAGE CSS PORPERTY -->
+    <div id="main-content">
+        <img src="./assets/feather.png" alt="feather">
+        <div class="logo-container">
+          <div class="sp-logo"></div>
+          <div class="sp-logo"></div>
+          <div class="sp-logo"></div>
+          <div class="sp-logo"></div>
+          <div class="sp-logo"></div>
+          <div class="sp-logo"></div>
         </div>
+        <img src="./assets/coins.png" alt="coins">
+    </div>
+      <div class="col-8 offset-2 mt-5">
+        <button class="col-3 btn-back">
+         <img src="assets/back-btn.png" alt="btn back" >
+        </button>
+
       </div>
-    </section>
-    <!-- FOOTER -->
-    <footer class="mt-auto col-12 text-white">
-      <div class="row col-12 d-flex justify-content-start align-items-center">
-        <div class="fs-1 col-5 fw-bold pb-2">
-          <p class="footer-text">Powered by</p>
-        </div>
-        <div class="col-7 flex justify-content-start align-items-center">
-          <ul role="list" class="col-12 mt-2 d-flex justify-content-start align-items-center">
-            <li class="me-2">
-              <!-- CIRCLE LOGO -->
-              <div class="footer-logo">
-                <p>LOGO</p>
-              </div>
-            </li>
-            <li class="me-2">
-              <!-- CIRCLE LOGO -->
-              <div class="footer-logo">
-                <p>LOGO</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <div class="win_more">
+        <p>I want to win more doublon</p>
       </div>
+  </section>
+
+   <!-- Bottom section that contains how many doblons left, chat, and question -->
+
+    <div>
+          <!-- COUNTER -->
+      <div class="d-flex justify-content-start align-items-center col-4">
+        <img src="assets/coins_3.png" alt="doublon counter" class="col-6">
+          <div class="doublon-counter-text text-center">
+            <p>You got</p>
+            <p class="doublon-counter-span">24</p>
+            <p>doblons</p>
+          </div>
+       </div>
+      <a href="#">
+        <img src="./assets/btn_chat_normal.png" alt="chat">
+      </a>
+      <a href="#">
+        <img src="./assets/btn_question_normal.png" alt="questions"> 
+      </a> 
+    </div>
+
+ <!-- Bottom section that contains how much time left -->
+    <div>
+      <p class = "time-left">You still have <span class = "time-element">24:00:00</span> left</p>
+    </div>
+
+  <!--this segment is about the footer-->
+  <section class=" max-width: 100% align-items-center">
+    <footer>
+      <p>Powered By: </p>
+        <div class="sp-logo"></div>
+        <div class="sp-logo"></div>
+        <div class="sp-logo"></div>
+        <div class="sp-logo"></div>
+        <div class="sp-logo"></div>
+        <div class="sp-logo"></div>
     </footer>
+  </section>
     <script src="./libs/jquery-3.6.0/jquery.js"></script>
-    <script src="libs/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
     <script src="./js/register.js"></script>
   </body>
 </html>
