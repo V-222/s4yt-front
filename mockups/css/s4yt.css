@@ -97,14 +97,14 @@
     box-shadow: 0 0 0 0 !important;
 }
 
-.main-section {
+/*.main-section {
     background-repeat: no-repeat;
     background-image: url('./../assets/mobile_section.png');
     background-position: center center;
     background-size: 80% 100%;
     margin-bottom: 10%;
     height: 70vh;
-}
+} */
 
 .main-content {
     background-repeat: no-repeat;
