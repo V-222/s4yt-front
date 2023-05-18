@@ -119,6 +119,22 @@
     display: none;
 }
 
+.feathers {
+    display: flex;
+}
+
+.coins {
+    display: flex;
+}
+
+.win_more {
+    display: flex;
+}
+
+.doublon-counter-text {
+    display: flex;
+}
+
 .btn-back {
     background-color: transparent !important;
     border: 0;
